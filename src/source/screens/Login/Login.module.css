@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(250, 248, 248);
+}
+
+
+.space{
+    margin-bottom: 10px;
+    width: 100%;
+    opacity: 0.8px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px ;
+}
+.line{
+    width: 130px;
+    background-color:  #999;
+    height: 2px;
+    margin-top: 46px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover{
+    border-bottom: 1px solid brown;
+}
+
+.main{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.onMouse:hover{
+    background-color: lightgrey;
+    box-shadow: none;
+}
+
+h5{
+    font-size: 19px ;
+    color: slategray;
+    font-weight: normal;
+}
+img{
+    margin-bottom: 20px;
+    
+}
+
+input{
+    height: 30px;
+    padding-left: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

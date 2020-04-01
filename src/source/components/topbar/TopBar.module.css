@@ -1,0 +1,62 @@
+
+.main{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 0px;
+    
+    display: flex;
+    min-width: 230px;
+    justify-content: space-between;
+    padding-left: 6px;
+    min-width: 100%;
+    margin-right: 0px;
+}
+
+.space{
+    margin-left: 15px;
+    flex: 1;
+}
+img{
+    height: 90%;
+    padding-left: 8px;
+    cursor: pointer;
+    width: 80px;
+}
+.image{
+    display: flex;
+    flex : 2;
+}
+span{
+    margin-left: 10px;
+}
+.logo{
+    color: whitesmoke;
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 0px;
+    cursor: pointer;
+        
+    
+    
+}
+.line{
+    background-color: honeydew;
+    width: 15px;
+    height: 2px;
+
+}
+
+ .button{
+     height: 15px;
+     width: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-top: 20px;
+     padding-left: 8px;
+ }
+ .button:hover{
+     cursor: pointer;
+ }

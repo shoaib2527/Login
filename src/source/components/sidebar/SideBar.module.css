@@ -1,0 +1,24 @@
+li{
+    padding: 6px;
+    list-style: none;
+    max-width: 230px;
+    color: #9c8773;
+    
+}
+li:hover{
+    background-color: gray;
+    color: black;
+}
+
+
+.sidebar{
+    position: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #eeebe8;
+    width: 230px;
+    font-size: 14px;
+    border-right: 1px solid #e0d9d3;
+    height: 100%;
+    box-shadow: 5px 0 10px rgba(0,0,0,.2);
+}
