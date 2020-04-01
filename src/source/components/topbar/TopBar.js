@@ -8,7 +8,7 @@ function TopBar(props) {
     return (
         <div className={classes.main}>
             <div className={classes.image}>
-            <div className={classes.button} onClick={props.clickon}>
+            <div className={classes.button} onClick={props.onClick}>
             <div className={classes.line}>
             </div>
             <div className={classes.line}>
@@ -19,9 +19,9 @@ function TopBar(props) {
             <img src="/Capture.PNG" onClick={props.clickon} alt="Logo"></img>
             </div>
             <div className={classes.logo}>
-                <div className={classes.space} style={{flexBasis: '200px'}} >
+                {/* <div className={classes.space} style={{flexBasis: '200px'}} >
                 <GiWorld color='white'   /><span>Pinmicro Innovation Center</span>
-                </div>
+                </div> */}
                 <div className={classes.space}>
                 <GoAlert color='white'/>
                 </div>

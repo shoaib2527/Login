@@ -53,7 +53,7 @@ class Alerts extends Component {
              
         return (
             <div>
-                <TopBar clickon={this.clickhandle} />
+                <TopBar onClick={this.clickhandle} />
                 {click}
             <div style={margin}><IoMdHome/><NavLink style={{color:'brown'}} to="/">Home </NavLink>/  Resources</div>
             <NavLink to='/Alerts'><h1  style={margin }>Alert...</h1></NavLink>

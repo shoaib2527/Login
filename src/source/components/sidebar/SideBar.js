@@ -15,11 +15,10 @@ function SideBar() {
     return (
         
         <aside className = {classes.sidebar}>
-            
+            <NavLink to="/dashboard"><li><IoIosSpeedometer/>  Dashboard</li></NavLink>
             <NavLink to="/home"><li ><GiWorld/>  Locations</li></NavLink>
             <NavLink to="/notifications"><li><GoBell/>  Notifications</li></NavLink>
             <NavLink to="/alerts"><li><GoAlert/>  Alerts</li></NavLink>
-            <NavLink to="/dashboard"><li><IoIosSpeedometer/>  Dashboard</li></NavLink>
             <NavLink to="/resources"><li><IoIosPersonAdd/>  Resources</li></NavLink>
             <NavLink to="/attendence"><li><IoMdPersonAdd/>  Attendence</li></NavLink>
             <NavLink to="/device"><li><FaSignal/>  Device</li></NavLink>

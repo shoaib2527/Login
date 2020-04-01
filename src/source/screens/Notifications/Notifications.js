@@ -55,7 +55,7 @@ import SideBar from '../../components/sidebar/SideBar'
              
         return (
             <div>
-                <TopBar clickon={this.clickhandle} />
+                <TopBar onClick={this.clickhandle} />
                 {click }
                 
             <div style={margin}><IoMdHome/><NavLink style={{color:'brown'}} to="/">Home </NavLink>/  Notifications</div>

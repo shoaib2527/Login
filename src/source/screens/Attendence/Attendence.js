@@ -52,7 +52,7 @@ class Attendence extends Component {
              
         return (
             <div>
-                <TopBar clickon={this.clickhandle} />
+                <TopBar onClick={this.clickhandle} />
                 {click}
             <div style={margin}><IoMdHome/><NavLink style={{color:'brown'}} to="/">Home </NavLink>/  Attendence</div>
             <h1 style={margin }>Attendence</h1>

@@ -53,7 +53,7 @@ class Resources extends Component {
              
         return (
             <div>
-                <TopBar clickon={this.clickhandle} />
+                <TopBar onClick={this.clickhandle} />
                 {click}
             <div style={margin}><IoMdHome/><NavLink style={{color:'brown'}} to="/">Home </NavLink>/  Resources</div>
             <h1 style={margin }>Resources</h1>
